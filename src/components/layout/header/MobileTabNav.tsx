@@ -40,8 +40,9 @@ function MobileTabNav() {
             </DropdownMenuItem>
           </div>
           <hr className="border-t border-gray-300 w-full" />
-          <div className="p-2"><SocialMediaBox fill="text-black" /></div>
-
+          <div className="p-2">
+            <SocialMediaBox fill="text-black" />
+          </div>
         </div>
       </DropdownMenuContent>
     </DropdownMenu>

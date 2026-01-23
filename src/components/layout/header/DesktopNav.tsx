@@ -1,6 +1,8 @@
 import SocialMediaBox from "@/components/common/socialmedia/SocialMediaBox.tsx";
+import DownloadCV from "@/components/layout/header/DownloadCV.tsx";
+import MoodChange from "@/components/layout/header/MoodChange.tsx";
 
-function DesktopNav() {
+function DesktopNav({ handleMoodChange }) {
   return (
     <div className="flex gap-8 justify-start items-center">
       <div className="flex gap-2 justify-start items-center text-white ">
@@ -31,6 +33,10 @@ function DesktopNav() {
       </div>
       <div>
         <SocialMediaBox />
+      </div>
+      <div className="flex gap-2 justify-start items-center">
+        <DownloadCV />
+        <MoodChange handleMoodChange={handleMoodChange} />
       </div>
     </div>
   );
