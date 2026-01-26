@@ -8,25 +8,25 @@ function DesktopNav({ handleMoodChange }) {
       <div className="flex gap-2 justify-start items-center text-white ">
         <a
           href="#home"
-          className="text-white hover:text-gray-400 transition-colors"
+          className="text-primary-foreground hover:text-gray-400 transition-colors"
         >
           Home
         </a>
         <a
           href="#portfolio"
-          className="text-white hover:text-gray-400 transition-colors"
+          className="text-primary-foreground hover:text-gray-400 transition-colors"
         >
           Portfolio
         </a>
         <a
           href="#about"
-          className="text-white hover:text-gray-400 transition-colors"
+          className="text-primary-foreground hover:text-gray-400 transition-colors"
         >
           About
         </a>
         <a
           href="#contact"
-          className="text-white hover:text-gray-400 transition-colors"
+          className="text-primary-foreground hover:text-gray-400 transition-colors"
         >
           Contact Me
         </a>
@@ -35,7 +35,6 @@ function DesktopNav({ handleMoodChange }) {
         <SocialMediaBox />
       </div>
       <div className="flex gap-2 justify-start items-center">
-        <DownloadCV />
         <MoodChange handleMoodChange={handleMoodChange} />
       </div>
     </div>

@@ -74,7 +74,9 @@ function PortfolioCard(props: Props) {
       <CardFooter>
         <Dialog>
           <DialogTrigger asChild>
-            <Button className="w-full">Scrollable Content</Button>
+            <div>
+              <Button className="w-full">Scrollable Content</Button>
+            </div>
           </DialogTrigger>
           <DialogContent className="max-w-[90vw] md:max-w-[70vw] lg:max-w-3/5 lg:p-12 rounded-lg">
             <DialogHeader>

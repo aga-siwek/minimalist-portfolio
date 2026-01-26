@@ -1,0 +1,55 @@
+[
+  {
+    "name": "React",
+    "logo": "/logos/reactjs-icon.svg"
+  },
+
+  {
+    "name": "HTML",
+    "logo": "/logos/HTML5_logo.svg"
+  },
+  {
+    "name": "TypeScript",
+    "logo": "/logos/typescriptlang-icon.svg"
+  },
+  {
+    "name": "JavaScript",
+    "logo": "/logos/javascript-logo.svg"
+  },
+  {
+    "name": "Redux",
+    "logo": "/logos/redux-logo.svg"
+  },
+  {
+    "name": "CSS",
+    "logo": "/logos/css3_logo.svg"
+  },
+  {
+    "name": "Tailwind",
+    "logo": "/logos/tailwind_logo.svg"
+  },
+  {
+    "name": "Python",
+    "logo": "/logos/python-icon.svg"
+  },
+  {
+    "name": "Django",
+    "logo": "/logos/djang-logo.svg"
+  },
+  {
+    "name": "Flask",
+    "logo": "/logos/flask-logo.svg"
+  },
+  {
+    "name": "Figma",
+    "logo": "/logos/figma-logo.svg"
+  },
+  {
+    "name": "Jira",
+    "logo": "/logos/jira-logo.svg"
+  },
+  {
+    "name": "GitHub",
+    "logo": "/logos/github-logo.svg"
+  }
+]
