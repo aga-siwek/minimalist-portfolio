@@ -5,7 +5,7 @@ import DesktopNav from "@/components/layout/header/DesktopNav.tsx";
 
 function Header({ handleMoodChange }) {
   return (
-    <div className=" flex justify-center bg-black py-4 px-4 lg:px-24 w-full">
+    <div className=" flex justify-center bg-foreground py-4 px-4 lg:px-24 w-full">
       <div className="flex justify-between w-full items-center max-w-7xl">
         <Logo />
         <div className="lg:hidden">

@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
@@ -129,4 +130,42 @@
 
 #root {
   @apply flex justify-center;
+}
+
+@layer components {
+  .custom-markdown {
+    @apply leading-relaxed text-foreground flex flex-col justify-start items-start;
+  }
+
+  .custom-markdown h2 {
+    @apply text-3xl font-bold mt-10 mb-4 border-b pb-2;
+  }
+
+  .custom-markdown h3 {
+    @apply text-xl font-semibold mt-6 mb-2 text-pretty;
+  }
+
+  .custom-markdown h4 {
+    @apply text-lg font-semibold mt-6 mb-2;
+  }
+
+  .custom-markdown p {
+    @apply mb-5;
+  }
+
+  .custom-markdown img {
+    @apply rounded-xl shadow-lg my-8 mx-auto border border-gray-200 max-w-3xl;
+  }
+
+  .custom-markdown blockquote {
+    @apply border-l-4  pl-4 italic my-6 bg-gray-50 py-2;
+  }
+
+  .custom-markdown strong {
+    @apply font-bold text-gray-900;
+  }
+
+  .custom-markdown ul {
+    @apply list-disc pl-6 mb-4 space-y-2;
+  }
 }

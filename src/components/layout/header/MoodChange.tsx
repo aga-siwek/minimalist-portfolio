@@ -13,9 +13,9 @@ function MoodChange({ handleMoodChange }) {
 
   const showIcon: any = () => {
     if (isDarkMood) {
-      return <Moon className="text-gray-500" />;
+      return <Moon className="text-primary-foreground"/>;
     } else if (!isDarkMood) {
-      return <Sun className="text-gray-500" />;
+      return <Sun className="text-primary-foreground " />;
     }
   };
 
@@ -23,7 +23,6 @@ function MoodChange({ handleMoodChange }) {
     <HoverCard openDelay={10} closeDelay={100}>
       <HoverCardTrigger asChild>
         <Button
-          variant="outline"
           aria-label="Submit"
           className="w-8 h-8"
           onClick={() => handleMoodChange()}

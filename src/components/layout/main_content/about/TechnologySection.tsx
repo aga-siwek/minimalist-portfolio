@@ -1,5 +1,5 @@
 import InfiniteSlider from "@/components/smoothui/infinite-slider/index.tsx";
-import skillsData from "@/jsonData/programsData.json";
+import skillsData from "@/content/programsData.json";
 
 function TechnologySection() {
   return (

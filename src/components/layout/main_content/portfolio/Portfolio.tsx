@@ -1,6 +1,6 @@
 import SectionText from "@/components/common/section/SectionText.tsx";
-import projectsData from "@/jsonData/projectsData.json";
-import PortfolioCart from "@/components/layout/main_content/portfolio/PortfolioCard.tsx";
+import projectsData from "@/content/projectsData.json";
+import PortfolioCard from "@/components/layout/main_content/portfolio/PortfolioCard.tsx";
 
 function Portfolio() {
   return (
@@ -12,12 +12,13 @@ function Portfolio() {
         <SectionText text="Check my portfolio" />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-2 w-full">
-        <PortfolioCart {...projectsData["exampleProject1"]} />
-        <PortfolioCart {...projectsData["exampleProject2"]} />
-        <PortfolioCart {...projectsData["exampleProject1"]} />
-        <PortfolioCart {...projectsData["exampleProject2"]} />
-        <PortfolioCart {...projectsData["exampleProject1"]} />
-        <PortfolioCart {...projectsData["exampleProject2"]} />
+        <PortfolioCard {...projectsData["MemoryGame"]} />
+        <PortfolioCard {...projectsData["HangmanGame"]} />
+        <PortfolioCard {...projectsData["TicTacToeGame"]} />
+        <PortfolioCard {...projectsData["WeatherApp"]} />
+        <PortfolioCard {...projectsData["MoodTrack"]} />
+        <PortfolioCard {...projectsData["MemoryGameBackend"]} />
+        <PortfolioCard {...projectsData["HelperAgent"]} />
       </div>
     </div>
   );

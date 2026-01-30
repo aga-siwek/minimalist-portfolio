@@ -30,12 +30,14 @@ export type Props = {
   mainImage: string;
 
   content: Record<string, string>;
+  slug: string
 
   github: string;
   preview: string;
 };
-
 import { SquareArrowOutUpRight } from "lucide-react";
+import {getProjectDescription} from "@/lib/md-provider.ts";
+import ReactMarkdown from "react-markdown";
 
 function PortfolioCard(props: Props) {
   const {
@@ -49,15 +51,17 @@ function PortfolioCard(props: Props) {
     content,
     github,
     preview,
+    slug
   } = props;
-  console.log("mage card", imageCard);
+
+  const description = getProjectDescription(slug);
   return (
     <Card className="relative mx-auto w-full max-w-sm pt-0">
-      <div className="absolute inset-0 z-30 aspect-video bg-black/35" />
+      <div className="absolute inset-0 z-30 aspect-video" />
       <img
         src={imageCard}
         alt="Event cover"
-        className="relative z-20 aspect-video w-full object-cover brightness-60 grayscale dark:brightness-40"
+        className="relative z-20 aspect-video w-full object-cover"
       />
       <CardHeader>
         <CardAction className="flex flex-col gap-4"></CardAction>
@@ -75,16 +79,16 @@ function PortfolioCard(props: Props) {
         <Dialog>
           <DialogTrigger asChild>
             <div>
-              <Button className="w-full">Scrollable Content</Button>
+              <Button className="w-full">More</Button>
             </div>
           </DialogTrigger>
-          <DialogContent className="max-w-[90vw] md:max-w-[70vw] lg:max-w-3/5 lg:p-12 rounded-lg">
+          <DialogContent className="max-w-[80vw] md:max-w-[70vw] lg:max-w-11/12 lg:p-12 rounded-lg h-10/12 lg:h-10/12">
             <DialogHeader>
               <DialogTitle>{dialogTitle}</DialogTitle>
               <DialogDescription>{dialogDescription}</DialogDescription>
             </DialogHeader>
-            <div className="no-scrollbar -mx-4 max-h-[50vh] overflow-y-auto px-4">
-              <div className=" flex flex-col gap-4 lg:gap-8">
+            <div className="no-scrollbar -mx-4 max-h-[70vh] overflow-y-auto px-4">
+              <div className=" flex flex-col gap-4 lg:gap-8 lg:p-4">
                 <div className="flex flex-wrap justify-start gap-4 w-full">
                   {badges?.map((badge) => (
                     <Badge key={`dialog ${badge}`} variant="secondary">
@@ -92,13 +96,13 @@ function PortfolioCard(props: Props) {
                     </Badge>
                   ))}
                 </div>
-                {mainImage && (
-                  <img
-                    src={mainImage}
-                    alt="mockup project"
-                    className="rounded-lg"
-                  />
-                )}
+                {/*{mainImage && (*/}
+                {/*  <img*/}
+                {/*    src={mainImage}*/}
+                {/*    alt="mockup project"*/}
+                {/*    className="rounded-lg"*/}
+                {/*  />*/}
+                {/*)}*/}
                 <div className="flex gap-4">
                   <a href={github} target="blank">
                     <Button>
@@ -113,25 +117,16 @@ function PortfolioCard(props: Props) {
                     </Button>
                   </a>
                 </div>
-
-                <div className="flex flex-col gap-8">
-                  <div className="flex flex-col gap-4">
-                    {content?.text1 && <p> {content.text1} </p>}
-                    {content?.image1 && (
-                      <img src={content.image1} alt="mockup project" />
-                    )}
-                    {content?.text2 && <p> {content.text2} </p>}
-                    {content?.image2 && (
-                      <img src={content.image2} alt="mockup project" />
-                    )}
-                    {content?.text3 && <p> {content.text3} </p>}
-                    {content?.image3 && (
-                      <img src={content.image3} alt="mockup project" />
-                    )}
-                  </div>
-                </div>
+                {description ? (
+                    <div className="custom-markdown">
+                      <ReactMarkdown>{description}</ReactMarkdown>
+                    </div>
+                ) : (
+                    <p>No description available for this project.</p>
+                )}
               </div>
             </div>
+
           </DialogContent>
         </Dialog>
       </CardFooter>

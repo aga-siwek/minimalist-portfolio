@@ -3,17 +3,17 @@ import { Button } from "@/components/ui/button";
 
 export default function ContactForm() {
     return (
-        <section id="contact" className="w-full max-w-2xl mx-auto p-6 scroll-mt-20">
+        <section className="flex flex-col justify-start items-start w-full max-w-2xl mx-auto scroll-mt-20 bg-card rounded-2xl border border-border/50 p-4 lg:p-8 shadow-lg">
             <div className="mb-8 text-center">
-                <h2 className="text-3xl font-bold tracking-tight">Contact Form</h2>
+                <h2 className="text-2xl font-bold tracking-tight">Contact Form</h2>
             </div>
 
             <form
                 onSubmit={(e) => e.preventDefault()}
-                className="grid grid-cols-1 gap-6 md:grid-cols-2"
+                className="grid grid-cols-1 gap-6 md:grid-cols-2 w-full"
             >
                 {/* Name */}
-                <div className="flex flex-col gap-2">
+                <div className="flex flex-col gap-2 w-full">
                     <label htmlFor="name" className="text-sm font-medium">
                         Name <span className="text-destructive">*</span>
                     </label>
@@ -27,7 +27,7 @@ export default function ContactForm() {
                 </div>
 
                 {/* Email */}
-                <div className="flex flex-col gap-2">
+                <div className="flex flex-col gap-2 w-full">
                     <label htmlFor="email" className="text-sm font-medium">
                         Email Address <span className="text-destructive">*</span>
                     </label>
@@ -41,7 +41,7 @@ export default function ContactForm() {
                 </div>
 
                 {/* Company - Full Width on Mobile, Half on Desktop */}
-                <div className="flex flex-col gap-2 md:col-span-2">
+                <div className="flex flex-col gap-2 md:col-span-2 w-full">
                     <label htmlFor="company" className="text-sm font-medium">
                         Company
                     </label>

@@ -51,5 +51,10 @@
   {
     "name": "GitHub",
     "logo": "/logos/github-logo.svg"
+  },
+  {
+    "name": "Google",
+    "logo": "/logos/google-icon.svg"
   }
+
 ]

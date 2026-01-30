@@ -1,6 +1,7 @@
 import SectionText from "@/components/common/section/SectionText.tsx";
 import TechnologySection from "@/components/layout/main_content/about/TechnologySection.tsx";
 import SkillsSection from "@/components/layout/main_content/about/SkillsSection.tsx";
+import TechnologySectionMobileTab from "@/components/layout/main_content/about/TechnologySectionMobileTab.tsx";
 
 function About() {
   return (
@@ -29,6 +30,9 @@ function About() {
           <SectionText text="Technology" />
           <div className="hidden lg:block">
             <TechnologySection />
+          </div>
+          <div className=" lg:hidden">
+            <TechnologySectionMobileTab />
           </div>
         </div>
       </div>
