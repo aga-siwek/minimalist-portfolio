@@ -34,9 +34,9 @@ function DesktopNav({ handleMoodChange }) {
       <div>
         <SocialMediaBox />
       </div>
-      <div className="flex gap-2 justify-start items-center">
-        <MoodChange handleMoodChange={handleMoodChange} />
-      </div>
+      {/*<div className="flex gap-2 justify-start items-center">*/}
+      {/*  <MoodChange handleMoodChange={handleMoodChange} />*/}
+      {/*</div>*/}
     </div>
   );
 }

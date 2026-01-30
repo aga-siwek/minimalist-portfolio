@@ -1,3 +1,5 @@
+## 🪓 Hangman Game: State Machine & Orientation-Based Layouts
+
 ### 📄 Overview & Tech Stack
 A singleplayer web-based version of the classic Hangman game. I focused on building a clear logic flow where every user action moves the game into a specific, planned state.
 

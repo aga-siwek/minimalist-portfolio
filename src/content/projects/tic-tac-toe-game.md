@@ -1,3 +1,5 @@
+## 🎲 Tic Tac Toe Game: State Machine & Orientation-Based Layouts
+
 ### 📄 Overview & Tech Stack
 A modern, fully interactive version of the classic Tic-Tac-Toe game. I built this project to focus on high-quality user experience and to practice implementing complex decision-making algorithms.
 
@@ -33,4 +35,4 @@ To ensure the game is intuitive and bug-free, I designed a clear flow for the us
 
 ### 📱 Responsive Design
 
-![game mobile](/projects/tic-tac-toe-game/tic-tac-toe-game-res.png)
+![game mobile](/projects/tic-tac-toe-game/tic-tac-toe-game-view.png)

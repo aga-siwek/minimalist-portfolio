@@ -154,7 +154,7 @@
   }
 
   .custom-markdown img {
-    @apply rounded-xl shadow-lg my-8 mx-auto border border-gray-200 max-w-3xl;
+    @apply rounded-xl shadow-lg my-8 mx-auto border border-gray-200 max-w-4xl;
   }
 
   .custom-markdown blockquote {

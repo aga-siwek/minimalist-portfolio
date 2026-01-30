@@ -79,15 +79,15 @@ function PortfolioCard(props: Props) {
         <Dialog>
           <DialogTrigger asChild>
             <div>
-              <Button className="w-full">More</Button>
+              <Button className="w-full">View Project</Button>
             </div>
           </DialogTrigger>
-          <DialogContent className="max-w-[80vw] md:max-w-[70vw] lg:max-w-11/12 lg:p-12 rounded-lg h-10/12 lg:h-10/12">
+          <DialogContent className="max-w-[80vw] md:max-w-[70vw] lg:max-w-10/12 lg:p-12 rounded-lg h-10/12 lg:h-10/12">
             <DialogHeader>
               <DialogTitle>{dialogTitle}</DialogTitle>
               <DialogDescription>{dialogDescription}</DialogDescription>
             </DialogHeader>
-            <div className="no-scrollbar -mx-4 max-h-[70vh] overflow-y-auto px-4">
+            <div className="no-scrollbar -mx-4 max-h-[70vh] overflow-y-auto px-4 lg:px-8">
               <div className=" flex flex-col gap-4 lg:gap-8 lg:p-4">
                 <div className="flex flex-wrap justify-start gap-4 w-full">
                   {badges?.map((badge) => (
@@ -96,13 +96,13 @@ function PortfolioCard(props: Props) {
                     </Badge>
                   ))}
                 </div>
-                {/*{mainImage && (*/}
-                {/*  <img*/}
-                {/*    src={mainImage}*/}
-                {/*    alt="mockup project"*/}
-                {/*    className="rounded-lg"*/}
-                {/*  />*/}
-                {/*)}*/}
+                {mainImage && (
+                  <img
+                    src={mainImage}
+                    alt="mockup project"
+                    className="rounded-lg max-w-5xl"
+                  />
+                )}
                 <div className="flex gap-4">
                   <a href={github} target="blank">
                     <Button>
@@ -118,7 +118,7 @@ function PortfolioCard(props: Props) {
                   </a>
                 </div>
                 {description ? (
-                    <div className="custom-markdown">
+                    <div className="custom-markdown ">
                       <ReactMarkdown>{description}</ReactMarkdown>
                     </div>
                 ) : (
