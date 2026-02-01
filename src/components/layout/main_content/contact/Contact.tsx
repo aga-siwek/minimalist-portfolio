@@ -12,7 +12,7 @@ function Contact() {
     >
       <div className="w-full flex flex-col justify-center items-center gap-8">
         <SectionText text="Contact me" />
-        <p>Have a project in mind? Let's build something great together.</p>
+        <p>Open to new challenges. Let’s discuss how I can support your team.</p>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
           <section className="flex flex-col gap-8 w-full max-w-2xl mx-auto scroll-mt-20 bg-card rounded-2xl border border-border/50 p-4 lg:p-8 shadow-lg">

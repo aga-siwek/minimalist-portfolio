@@ -10,10 +10,10 @@ import { Coffee } from "lucide-react";
 
 function SkillsSection() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full ">
       <div className="flex flex-col gap-8">
-        <div className="flex flex-col gap-4 border-solid bg-card rounded-2xl border border-border/50 p-4 lg:p-8 shadow-lg">
-          <div className="flex gap-4 justify-start items-center">
+        <div className="flex flex-col gap-4 border-solid bg-card rounded-2xl border border-border/50 p-4 lg:p-8 shadow-lg bg-[url('/skills-bg-1.png')] bg-cover bg-center">
+          <div className="flex gap-4 justify-start items-center ">
             <GraduationCap />
             <h4 className="text-lg font-bold">Certificates</h4>
           </div>
@@ -36,7 +36,7 @@ function SkillsSection() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-4 border-solid bg-card rounded-2xl border border-border/50 p-4 lg:p-8 shadow-lg">
+        <div className="flex flex-col gap-4 border-solid bg-card rounded-2xl border border-border/50 p-4 lg:p-8 shadow-lg bg-[url('/skills-bg-2.png')] bg-cover bg-center">
           <div className="flex gap-4 justify-start items-center">
             <Users />
             <h4 className="text-lg font-bold">Soft Skills</h4>
@@ -44,27 +44,27 @@ function SkillsSection() {
           <div className="flex flex-col gap-2 justify-start items-start">
             <div className="flex gap-2 justify-start items-start">
               <HeartHandshake />
-              <p>Building business relationships</p>
+              <p>Professional business relationship building</p>
             </div>
             <div className="flex gap-2 justify-start items-start">
               <HeartHandshake />
-              <p>Team and subcontractor management
+              <p>Effective collaboration in Scrum teams
                 </p>
             </div>
             <div className="flex gap-2 justify-start items-start">
               <HeartHandshake />
-              <p>Creative thinking in project</p>
+              <p>Strong algorithmic and analytical thinking</p>
             </div>
             <div className="flex gap-2 justify-start items-start">
               <HeartHandshake />
-              <p>4 lorem imsum skils description</p>
+              <p>Proactive problem solving and optimization</p>
             </div>
           </div>
         </div>
       </div>
 
       <div className="flex flex-col gap-8">
-        <div className="flex flex-col gap-4 border-solid bg-card rounded-2xl border border-border/50 p-4 lg:p-8 shadow-lg">
+        <div className="flex flex-col gap-4 border-solid bg-card rounded-2xl border border-border/50 p-4 lg:p-8 shadow-lg bg-[url('/skills-bg-3.png')] bg-cover bg-center">
           <div className="flex gap-4 justify-start items-center">
             <BicepsFlexed />
             <h4 className="text-lg font-bold">Core Competencies</h4>
@@ -72,23 +72,23 @@ function SkillsSection() {
           <div className="flex flex-col gap-2 justify-start items-start">
             <div className="flex gap-2 justify-start items-start">
               <Clipboard />
-              <p>Data analysis and data-driven</p>
+              <p>Full-Stack development foundations</p>
             </div>
             <div className="flex gap-2 justify-start items-start">
               <Clipboard />
-              <p>Project organization and coordination</p>
+              <p>Data-Driven Decision Making</p>
             </div>
             <div className="flex gap-2 justify-start items-start">
               <Clipboard />
-              <p>Google Tag Manager – understanding DOM structure</p>
+              <p>Core logic and API integration</p>
             </div>
             <div className="flex gap-2 justify-start items-start">
               <Clipboard />
-              <p>Web Analytics – understanding user behaviour (UX)</p>
+              <p>Web Analytics and UX basics</p>
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-4 border-solid bg-card rounded-2xl border border-border/50 p-4 lg:p-8 shadow-lg">
+        <div className="flex flex-col gap-4 border-solid bg-card rounded-2xl border border-border/50 p-4 lg:p-8 shadow-lg bg-[url('/skills-bg-4.png')] bg-cover bg-center">
           <div className="flex gap-4 justify-start items-center">
             <PawPrint />
             <h4 className="text-lg font-bold">Random facts</h4>
@@ -96,19 +96,19 @@ function SkillsSection() {
           <div className="flex flex-col gap-2 justify-start items-start">
             <div className="flex gap-2 justify-start items-start">
               <Coffee />
-              <p>1 lorem imsum skils description</p>
+              <p>Australian Shepherd owner</p>
             </div>
             <div className="flex gap-2 justify-start items-start">
               <Coffee />
-              <p>2 lorem imsum skils description</p>
+              <p>Passionate about Obedience training</p>
             </div>
             <div className="flex gap-2 justify-start items-start">
               <Coffee />
-              <p>3 lorem imsum skils description</p>
+              <p>Dance classes enthusiast</p>
             </div>
             <div className="flex gap-2 justify-start items-start">
               <Coffee />
-              <p>4 lorem imsum skils description</p>
+              <p>Active long-distance walker</p>
             </div>
           </div>
         </div>
