@@ -39,10 +39,4 @@ Build a responsive weather app with search functionality, unit conversion, and d
 * **Date Manipulation:** Working with the JavaScript Date object and array reordering.
 
 ### 📱 Preview
-
-<div class="image-grid">
-
-![Weather App Desktop](/projects/weather/desktop.png)
-![Weather App Mobile View](/projects/weather/mobile-view.png)
-
-</div>
+![game mobile](/projects/weather-app/weather-app-res.png)
