@@ -1,3 +1,5 @@
+## 🧠 Memory Game: State Management & Game Logic
+
 ### 📄 Overview & Tech Stack
 A web-based logic game where players find matching pairs of numbers or icons. I focused on creating a fast and smooth experience that challenges the user's memory across different grid sizes.
 
@@ -32,4 +34,3 @@ The game is highly flexible and changes based on what the user selects at the st
 * **Logical Thinking:** Building a system that can switch between two completely different ways of scoring (Time vs. Points).
 
 ### 📱 Responsive Design
-![game mobile](/projects/memory-game/memory-game-res.png)

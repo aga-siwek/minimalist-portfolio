@@ -17,8 +17,7 @@ function Portfolio() {
         <PortfolioCard {...projectsData["TicTacToeGame"]} />
         <PortfolioCard {...projectsData["WeatherApp"]} />
         <PortfolioCard {...projectsData["MoodTrack"]} />
-        <PortfolioCard {...projectsData["MemoryGameBackend"]} />
-        <PortfolioCard {...projectsData["HelperAgent"]} />
+        <PortfolioCard {...projectsData["MoodTrackBackend"]} />
       </div>
     </div>
   );

@@ -34,6 +34,7 @@ export type Props = {
 
   github: string;
   preview: string;
+  imageViews: string
 };
 import { SquareArrowOutUpRight } from "lucide-react";
 import {getProjectDescription} from "@/lib/md-provider.ts";
@@ -51,9 +52,31 @@ function PortfolioCard(props: Props) {
     content,
     github,
     preview,
-    slug
+    slug,
+    imageViews
   } = props;
+ console.log("Preview", preview, Boolean(preview));
+  const showLiveSiteButton = () => {
+    if (preview) {
+      return (
+          <a href={preview}>
+        <Button variant="outline">
+          view live site{" "}
+          <SquareArrowOutUpRight className="text-accent-foreground" />{" "}
+        </Button>
+      </a>)
+    }
+    }
+  const showImageViews= () => {
+    if (preview) {
+      return (<img
+          src={imageViews}
+          alt="image views"
+          className="w-full h-full rounded-md shadow-lg"
+      />)
+    }
 
+  }
   const description = getProjectDescription(slug);
   return (
     <Card className="relative mx-auto w-full max-w-sm pt-0">
@@ -82,7 +105,7 @@ function PortfolioCard(props: Props) {
               <Button className="w-full">View Project</Button>
             </div>
           </DialogTrigger>
-          <DialogContent className="max-w-[80vw] md:max-w-[70vw] lg:max-w-10/12 lg:p-12 rounded-lg h-10/12 lg:h-10/12">
+          <DialogContent className="max-w-[80vw] md:max-w-[70vw] lg:max-w-3/4 lg:p-12 rounded-lg h-10/12 lg:h-10/12">
             <DialogHeader>
               <DialogTitle>{dialogTitle}</DialogTitle>
               <DialogDescription>{dialogDescription}</DialogDescription>
@@ -110,12 +133,7 @@ function PortfolioCard(props: Props) {
                       <SquareArrowOutUpRight className="text-primary-foreground" />{" "}
                     </Button>
                   </a>
-                  <a href={preview}>
-                    <Button variant="outline">
-                      view live site{" "}
-                      <SquareArrowOutUpRight className="text-accent-foreground" />{" "}
-                    </Button>
-                  </a>
+                  {showLiveSiteButton()}
                 </div>
                 {description ? (
                     <div className="custom-markdown ">
@@ -124,6 +142,7 @@ function PortfolioCard(props: Props) {
                 ) : (
                     <p>No description available for this project.</p>
                 )}
+                {showImageViews()}
               </div>
             </div>
 

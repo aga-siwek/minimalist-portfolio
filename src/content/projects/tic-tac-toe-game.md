@@ -35,4 +35,3 @@ To ensure the game is intuitive and bug-free, I designed a clear flow for the us
 
 ### 📱 Responsive Design
 
-![game mobile](/projects/tic-tac-toe-game/tic-tac-toe-game-view.png)

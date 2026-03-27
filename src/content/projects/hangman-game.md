@@ -35,4 +35,3 @@ I used a **State Machine** approach to manage how the application moves between 
 * **Redux Toolkit:** Organizing state into slices and actions to keep the code manageable.
 
 ### 📱 Responsive & Orientation Design
-![game mobile](/projects/hangman-game/hangman-game-res.png)

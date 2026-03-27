@@ -1,4 +1,5 @@
 ## 🌤️ Weather App: API Integration & Data Logic
+
 ### 📄 Overview & Tech Stack
 Build a responsive weather app with search functionality, unit conversion, and detailed forecasts using the Open-Meteo API. The project focuses on handling complex data structures and ensuring a smooth user experience across different time zones.
 
@@ -39,4 +40,3 @@ Build a responsive weather app with search functionality, unit conversion, and d
 * **Date Manipulation:** Working with the JavaScript Date object and array reordering.
 
 ### 📱 Preview
-![game mobile](/projects/weather-app/weather-app-res.png)

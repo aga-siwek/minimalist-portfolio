@@ -6,14 +6,14 @@ function SocialMediaBox({ fill = "text-primary-foreground", size="w-6 h-6" }) {
   return (
     <div className="flex gap-2 items-center">
       <a
-        href="https://google.com"
+        href="https://github.com/aga-siwek"
         target="blank"
         className={`fill-current ${fill} hover:text-gray-400`}
       >
         <ReactSVG src={githubIcon} className={size} />
       </a>
       <a
-        href="https://google.com"
+        href="https://www.linkedin.com/in/agnieszka-siwek/"
         target="blank"
         className={`fill-current ${fill} hover:text-gray-400`}
       >
