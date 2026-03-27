@@ -7,9 +7,6 @@
     "module": "ESNext",
     "types": ["vite/client"],
     "skipLibCheck": true,
-    "noEmit": true,
-    "skipLibCheck": true,
-    "strict": true,
 
     /* Bundler mode */
     "moduleResolution": "bundler",
