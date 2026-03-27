@@ -2,7 +2,10 @@ import linkedinIcon from "@/assets/linkedin.svg";
 import githubIcon from "@/assets/github.svg";
 import { ReactSVG } from "react-svg";
 
-function SocialMediaBox({ fill = "text-primary-foreground", size="w-6 h-6" }) {
+function SocialMediaBox({
+  fill = "text-primary-foreground",
+  size = "w-6 h-6",
+}) {
   return (
     <div className="flex gap-2 items-center">
       <a

@@ -13,7 +13,7 @@ function MoodChange({ handleMoodChange }) {
 
   const showIcon: any = () => {
     if (isDarkMood) {
-      return <Moon className="text-primary-foreground"/>;
+      return <Moon className="text-primary-foreground" />;
     } else if (!isDarkMood) {
       return <Sun className="text-primary-foreground " />;
     }

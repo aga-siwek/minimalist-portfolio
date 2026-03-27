@@ -30,14 +30,14 @@ export type Props = {
   mainImage: string;
 
   content: Record<string, string>;
-  slug: string
+  slug: string;
 
   github: string;
   preview: string;
-  imageViews: string
+  imageViews: string;
 };
 import { SquareArrowOutUpRight } from "lucide-react";
-import {getProjectDescription} from "@/lib/md-provider.ts";
+import { getProjectDescription } from "@/lib/md-provider.ts";
 import ReactMarkdown from "react-markdown";
 
 function PortfolioCard(props: Props) {
@@ -53,30 +53,32 @@ function PortfolioCard(props: Props) {
     github,
     preview,
     slug,
-    imageViews
+    imageViews,
   } = props;
- console.log("Preview", preview, Boolean(preview));
+  console.log("Preview", preview, Boolean(preview));
   const showLiveSiteButton = () => {
     if (preview) {
       return (
-          <a href={preview}>
-        <Button variant="outline">
-          view live site{" "}
-          <SquareArrowOutUpRight className="text-accent-foreground" />{" "}
-        </Button>
-      </a>)
+        <a href={preview}>
+          <Button variant="outline">
+            view live site{" "}
+            <SquareArrowOutUpRight className="text-accent-foreground" />{" "}
+          </Button>
+        </a>
+      );
     }
-    }
-  const showImageViews= () => {
+  };
+  const showImageViews = () => {
     if (preview) {
-      return (<img
+      return (
+        <img
           src={imageViews}
           alt="image views"
           className="w-full h-full rounded-md shadow-lg"
-      />)
+        />
+      );
     }
-
-  }
+  };
   const description = getProjectDescription(slug);
   return (
     <Card className="relative mx-auto w-full max-w-sm pt-0">
@@ -136,16 +138,15 @@ function PortfolioCard(props: Props) {
                   {showLiveSiteButton()}
                 </div>
                 {description ? (
-                    <div className="custom-markdown ">
-                      <ReactMarkdown>{description}</ReactMarkdown>
-                    </div>
+                  <div className="custom-markdown ">
+                    <ReactMarkdown>{description}</ReactMarkdown>
+                  </div>
                 ) : (
-                    <p>No description available for this project.</p>
+                  <p>No description available for this project.</p>
                 )}
                 {showImageViews()}
               </div>
             </div>
-
           </DialogContent>
         </Dialog>
       </CardFooter>

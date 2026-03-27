@@ -48,8 +48,7 @@ function SkillsSection() {
             </div>
             <div className="flex gap-2 justify-start items-start">
               <HeartHandshake />
-              <p>Effective collaboration in Scrum teams
-                </p>
+              <p>Effective collaboration in Scrum teams</p>
             </div>
             <div className="flex gap-2 justify-start items-start">
               <HeartHandshake />

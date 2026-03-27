@@ -12,11 +12,12 @@ function Contact() {
     >
       <div className="w-full flex flex-col justify-center items-center gap-8">
         <SectionText text="Contact me" />
-        <p>Open to new challenges. Let’s discuss how I can support your team.</p>
+        <p>
+          Open to new challenges. Let’s discuss how I can support your team.
+        </p>
 
-
-          <section className="flex gap-8 lg:gap-24 justify-center items-start w-full mx-auto scroll-mt-20 bg-card rounded-2xl border border-border/50 p-4 lg:p-8 shadow-lg">
-            <div className="flex flex-col gap-8">
+        <section className="flex gap-8 lg:gap-24 justify-center items-start w-full mx-auto scroll-mt-20 bg-card rounded-2xl border border-border/50 p-4 lg:p-8 shadow-lg">
+          <div className="flex flex-col gap-8">
             <h2 className="text-2xl font-bold tracking-tight">Information</h2>
             <div className="flex flex-col gap-4 justify-start items-start">
               <div className="flex gap-4 justify-start items-start">
@@ -32,21 +33,18 @@ function Contact() {
                 <Phone />
                 <p>600 373 323</p>
               </div>
-
             </div>
-            </div>
-            <div className="flex flex-col gap-8">
+          </div>
+          <div className="flex flex-col gap-8">
             <h2 className="text-2xl font-bold tracking-tight">Follow me</h2>
-            <SocialMediaBox fill="text-primary" size="w-8 h-8"/>
-            </div>
-
-          </section>
-          {/*<div>*/}
-          {/*  <ContactForm />*/}
-          {/*</div>*/}
-        </div>
+            <SocialMediaBox fill="text-primary" size="w-8 h-8" />
+          </div>
+        </section>
+        {/*<div>*/}
+        {/*  <ContactForm />*/}
+        {/*</div>*/}
       </div>
-
+    </div>
   );
 }
 export default Contact;
