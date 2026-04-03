@@ -107,10 +107,10 @@ function PortfolioCard(props: Props) {
               <Button className="w-full">View Project</Button>
             </div>
           </DialogTrigger>
-          <DialogContent className="max-w-[80vw] md:max-w-[70vw] lg:max-w-3/4 lg:p-12 rounded-lg h-10/12 lg:h-10/12">
+          <DialogContent className="w-full  lg:max-w-3/4 lg:p-12 rounded-lg h-10/12">
             <DialogHeader>
               <DialogTitle>{dialogTitle}</DialogTitle>
-              <DialogDescription>{dialogDescription}</DialogDescription>
+              <DialogDescription className="hidden lg:block">{dialogDescription}</DialogDescription>
             </DialogHeader>
             <div className="no-scrollbar -mx-4 max-h-[70vh] overflow-y-auto px-4 lg:px-8">
               <div className=" flex flex-col gap-4 lg:gap-8 lg:p-4">
