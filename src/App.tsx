@@ -20,7 +20,7 @@ function App() {
   };
   return (
     <>
-      <div className="flex flex-col gap-2 w-full items-center min-h-screen justify-center font-sans w-full ">
+      <div className="flex flex-col gap-2 w-full min-h-screen justify-center font-sans md:items-center">
         <Header handleMoodChange={handleMoodChange} />
         <MainContent />
       </div>

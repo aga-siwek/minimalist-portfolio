@@ -12,7 +12,7 @@ function SkillsSection() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full ">
       <div className="flex flex-col gap-8">
-        <div className="flex flex-col gap-4 border-solid bg-card rounded-2xl border border-border/50 p-4 lg:p-8 shadow-lg bg-[url('/skills-bg-1.png')] bg-cover bg-center">
+        <div className="md:h-76 lg:h-56 flex flex-col gap-4 border-solid bg-card rounded-2xl border border-border/50 p-4 lg:p-8 shadow-lg bg-[url('/skills-bg-1.png')] bg-cover bg-center">
           <div className="flex gap-4 justify-start items-center ">
             <GraduationCap />
             <h4 className="text-lg font-bold">Certificates</h4>
@@ -36,7 +36,7 @@ function SkillsSection() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-4 border-solid bg-card rounded-2xl border border-border/50 p-4 lg:p-8 shadow-lg bg-[url('/skills-bg-2.png')] bg-cover bg-center">
+        <div className="md:h-76 lg:h-56 flex flex-col gap-4 border-solid bg-card rounded-2xl border border-border/50 p-4 lg:p-8 shadow-lg bg-[url('/skills-bg-2.png')] bg-cover bg-center">
           <div className="flex gap-4 justify-start items-center">
             <Users />
             <h4 className="text-lg font-bold">Soft Skills</h4>
@@ -63,7 +63,7 @@ function SkillsSection() {
       </div>
 
       <div className="flex flex-col gap-8">
-        <div className="flex flex-col gap-4 border-solid bg-card rounded-2xl border border-border/50 p-4 lg:p-8 shadow-lg bg-[url('/skills-bg-3.png')] bg-cover bg-center">
+        <div className="md:h-76 lg:h-56 flex flex-col gap-4 border-solid bg-card rounded-2xl border border-border/50 p-4 lg:p-8 shadow-lg bg-[url('/skills-bg-3.png')] bg-cover bg-center">
           <div className="flex gap-4 justify-start items-center">
             <BicepsFlexed />
             <h4 className="text-lg font-bold">Core Competencies</h4>
@@ -87,7 +87,7 @@ function SkillsSection() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-4 border-solid bg-card rounded-2xl border border-border/50 p-4 lg:p-8 shadow-lg bg-[url('/skills-bg-4.png')] bg-cover bg-center">
+        <div className="md:h-76 lg:h-56 flex flex-col gap-4 border-solid bg-card rounded-2xl border border-border/50 p-4 lg:p-8 shadow-lg bg-[url('/skills-bg-4.png')] bg-cover bg-center">
           <div className="flex gap-4 justify-start items-center">
             <PawPrint />
             <h4 className="text-lg font-bold">Random facts</h4>

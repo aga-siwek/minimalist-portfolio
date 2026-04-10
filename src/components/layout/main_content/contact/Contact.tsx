@@ -16,7 +16,7 @@ function Contact() {
           Open to new challenges. Let’s discuss how I can support your team.
         </p>
 
-        <section className="flex gap-8 lg:gap-24 justify-center items-start w-full mx-auto scroll-mt-20 bg-card rounded-2xl border border-border/50 p-4 lg:p-8 shadow-lg">
+        <section className="flex flex-col md:flex-row gap-8 lg:gap-24 justify-center items-start w-full mx-auto scroll-mt-20 bg-card rounded-2xl border border-border/50 p-4 lg:p-8 shadow-lg">
           <div className="flex flex-col gap-8">
             <h2 className="text-2xl font-bold tracking-tight">Information</h2>
             <div className="flex flex-col gap-4 justify-start items-start">
