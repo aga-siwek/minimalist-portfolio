@@ -1,4 +1,4 @@
-## 🎲 Tic Tac Toe Game: State Machine & Orientation-Based Layouts
+## 🎲 Tic Tac Toe Game: Minimax Algorithm & Multiplayer State Management
 
 ### 📄 Overview & Tech Stack
 

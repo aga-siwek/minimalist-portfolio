@@ -2,7 +2,7 @@
   "MemoryGame": {
     "name": "Memory Game",
     "imageCard": "/projects/memory-game/memory-game-card.png",
-    "badges": ["Java Script", "React", "Redux"],
+    "badges": ["JavaScript", "React", "Redux"],
     "cardTitle": "Memory Game",
     "cardDescription": "This project features dynamic board generation and Redux logic.",
     "dialogTitle": "Memory Game",
@@ -16,7 +16,7 @@
   "TicTacToeGame": {
     "name": "Tic Tac Toe Game",
     "imageCard": "/projects/tic-tac-toe-game/tic-tac-toe-game-card.png",
-    "badges": ["Java Script", "React", "Redux", "MinMax"],
+    "badges": ["JavaScript", "React", "Redux", "MinMax"],
     "cardTitle": "Tic Tac Toe Game",
     "cardDescription": "This app features grid-based game logic with real-time score tracking.",
     "dialogTitle": "Tic Tac Toe Game",
@@ -30,7 +30,7 @@
   "HangmanGame": {
     "name": "Hangman Game",
     "imageCard": "/projects/hangman-game/hangman-game-card.png",
-    "badges": ["Java Script", "React", "Redux"],
+    "badges": ["JavaScript", "React", "Redux"],
     "cardTitle": "Hangman Game",
     "cardDescription": "This game uses a state machine to manage flow and JSON filtering for word categories.",
     "dialogTitle": "Hangman Game",
@@ -42,9 +42,9 @@
     "imageViews": "/projects/hangman-game/hangman-game-res.png"
   },
   "WeatherApp": {
-    "name": "WeatherApp",
+    "name": "Weather App",
     "imageCard": "/projects/weather-app/weather-app-card.png",
-    "badges": ["Type Script", "React", "Api"],
+    "badges": ["TypeScript", "React", "API"],
     "cardTitle": "Weather app",
     "cardDescription": "Dashboard linking multiple APIs with local performance optimization.",
     "dialogTitle": "Weather app",
@@ -58,11 +58,11 @@
   "MoodTrack": {
     "name": "MoodTrack Frontend",
     "imageCard": "/projects/moodTrack/mood_p_card.png",
-    "badges": ["Type Script", "React", "Redux"],
+    "badges": ["TypeScript", "React", "Redux"],
     "cardTitle": "Mood Track Frontend",
     "cardDescription": "A full-stack dashboard transforming daily emotional logs into wellness insights",
     "dialogTitle": "Mood track",
-    "dialogDescription": "This is a dialog with scrollable content.",
+    "dialogDescription": "Full-stack dashboard transforming daily emotional logs into wellness insights.",
     "mainImage": "/projects/moodTrack/mood_p_header.png",
     "slug": "mood-track",
     "github": "https://github.com/aga-siwek/frontendmentor-mood-tracking-redux",
@@ -76,35 +76,15 @@
     "cardTitle": "Mood Track Backend",
     "cardDescription": "A Flask REST API providing secure user authentication and data persistence.",
     "dialogTitle": "Mood track",
-    "dialogDescription": "This is a dialog with scrollable content.",
+    "dialogDescription": "Flask REST API with secure token authentication and relational data persistence.",
     "mainImage": "/projects/mood-track-backend/mood-track-b-header.png",
     "slug": "mood-track-backend",
     "github": "https://github.com/aga-siwek/frontendmentor-mood-tracking-backend",
     "preview": "",
     "imageViews": ""
   },
-  "HelperAgent": {
-    "name": "HelperAgent",
-    "imageCard": "/mockup-project.png",
-    "badges": ["Python", "Api", "Ai"],
-    "cardTitle": "Helper Agent",
-    "cardDescription": " A practical talk on component APIs, accessibility, and shipping faster.",
-    "dialogTitle": "Helper Agent",
-    "dialogDescription": "This is a dialog with scrollable content.",
-    "mainImage": "/mockup-project.png",
-    "content": {
-      "text1": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
-      "image1": "/statemachine-mockup.jpg",
-      "text2": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
-      "image2": "",
-      "text3": "",
-      "image3": ""
-    },
-    "github": "https://github.com/",
-    "preview": "https://www.google.com/"
-  },
   "MemoryGameBackend": {
-    "name": "MemoryGameBackend",
+    "name": "Memory Game Backend",
     "imageCard": "/mockup-project.png",
     "badges": ["Python", "Flask", "SQL"],
     "cardTitle": "Memory Game Backend",

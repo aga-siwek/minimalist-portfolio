@@ -23,15 +23,15 @@ function Contact() {
               <div className="flex gap-4 justify-start items-start">
                 <Mail />
                 <a
-                  href="mailto:kontakt@twojadomena.pl"
+                  href="mailto:siwek.dev@gmail.com"
                   className="hover:text-primary transition-colors"
                 >
-                  kontakt@twojadomena.pl
+                  siwek.dev@gmail.com
                 </a>
               </div>
               <div className="flex gap-4 justify-start items-start">
                 <Phone />
-                <p>600 373 323</p>
+                <a href="tel:+48600373323" className="hover:text-primary transition-colors">+48 600 373 323</a>
               </div>
             </div>
           </div>

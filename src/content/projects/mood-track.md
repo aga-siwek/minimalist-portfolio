@@ -4,8 +4,8 @@
 
 A full-stack tracking application that transforms daily emotional logs into actionable insights. The project focuses on **real-time data synchronization**, where every user interaction triggers a global update of analytics, charts, and personalized content via a custom API.
 
-- **Language:** TypeScript & Python
-- **Framework:** React & Flask
+- **Language:** TypeScript
+- **Framework:** React
 - **State Management:** Redux Toolkit (AsyncThunks, ExtraReducers)
 - **Styling:** CSS Modules
 - **Data Source:** Flask-based RESTful API (Token Auth)
