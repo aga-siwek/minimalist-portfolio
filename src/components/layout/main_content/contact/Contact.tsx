@@ -40,9 +40,6 @@ function Contact() {
             <SocialMediaBox fill="text-primary" size="w-8 h-8" />
           </div>
         </section>
-        {/*<div>*/}
-        {/*  <ContactForm />*/}
-        {/*</div>*/}
       </div>
     </div>
   );

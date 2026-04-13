@@ -38,7 +38,7 @@ function About() {
       </div>
       <div className="flex w-full">
         <div className="flex w-full flex-col gap-8">
-          <SectionText text="Skils" />
+          <SectionText text="Skills" />
           <SkillsSection />
         </div>
       </div>
