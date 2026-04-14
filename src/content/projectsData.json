@@ -66,7 +66,7 @@
     "mainImage": "/projects/moodTrack/mood_p_header.png",
     "slug": "mood-track",
     "github": "https://github.com/aga-siwek/frontendmentor-mood-tracking-redux",
-    "preview": "https://www.google.com/",
+    "preview": "https://frontendmentor-mood-tracking.vercel.app",
     "imageViews": "/projects/moodTrack/mood_p_res.png"
   },
   "MoodTrackBackend": {
