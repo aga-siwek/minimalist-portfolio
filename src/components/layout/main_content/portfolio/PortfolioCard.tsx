@@ -59,8 +59,8 @@ function PortfolioCard(props: Props) {
   const showLiveSiteButton = () => {
     if (preview) {
       return (
-        <a href={preview}>
-          <Button variant="outline">
+        <a href={preview} target="blank">
+          <Button variant="outline" >
             view live site{" "}
             <SquareArrowOutUpRight className="text-accent-foreground" />{" "}
           </Button>
