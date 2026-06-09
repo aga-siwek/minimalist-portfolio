@@ -56,10 +56,10 @@
     "imageViews": "/projects/weather-app/weather-app-res.png"
   },
   "MoodTrack": {
-    "name": "MoodTrack Frontend",
+    "name": "MoodTrack Fullstack",
     "imageCard": "/projects/moodTrack/mood_p_card.png",
-    "badges": ["TypeScript", "React", "Redux"],
-    "cardTitle": "Mood Track Frontend",
+    "badges": ["TypeScript", "React", "Redux", "Python", "Flask"],
+    "cardTitle": "Mood Track Fullstack",
     "cardDescription": "A full-stack dashboard transforming daily emotional logs into wellness insights",
     "dialogTitle": "Mood track",
     "dialogDescription": "Full-stack dashboard transforming daily emotional logs into wellness insights.",
@@ -69,6 +69,19 @@
     "preview": "https://frontendmentor-mood-tracking.vercel.app",
     "imageViews": "/projects/moodTrack/mood_p_res.png"
   },
+  "ReadingList": {
+  "name": "Personal Reading List Fullstack",
+  "imageCard": "/projects/moodTrack/mood_p_card.png",
+  "badges": ["TypeScript", "React", "Python", "Flask"],
+  "cardTitle": "Personal Reading List: Dual-Source Book Search & Reading Tracker",
+  "cardDescription": "A full-stack reading tracker with multilingual book search powered by Open Library and Google Books APIs",
+  "dialogTitle": "Personal Reading List",
+  "dialogDescription": "Full-stack reading tracker with multilingual book search, reading progress, shelves and yearly goals.",
+  "mainImage": "/projects/moodTrack/mood_p_header.png",
+  "slug": "reading-list",
+  "github": "https://github.com/aga-siwek/frontendmentor-personal-reading-list",
+  "preview": "https://frontendmentor-personal-reading-lis.vercel.app",
+  "imageViews": "/projects/moodTrack/mood_p_res.png",
   "MoodTrackBackend": {
     "name": "MoodTrack Backend",
     "imageCard": "/projects/mood-track-backend/mood-b-card.png",
