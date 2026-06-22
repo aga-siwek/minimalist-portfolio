@@ -9,7 +9,7 @@
     "dialogDescription": "Dynamic board with randomized state logic",
     "mainImage": "/projects/memory-game/memory-game-header.png",
     "slug": "memory-game",
-    "github": "https://github.com/aga-siwek/frontend-mentor-memory-game",
+    "githubFrontend": "https://github.com/aga-siwek/frontend-mentor-memory-game",
     "preview": "https://frontend-mentor-memory-game.vercel.app/",
     "imageViews": "/projects/memory-game/memory-game-res.png"
   },
@@ -23,7 +23,7 @@
     "dialogDescription": "Logic-based grid with real-time score tracking.",
     "mainImage": "/projects/tic-tac-toe-game/tic-tac-toe-game-header.png",
     "slug": "tic-tac-toe-game",
-    "github": "https://github.com/aga-siwek/frontendmentor-tic-tac-toe",
+    "githubFrontend": "https://github.com/aga-siwek/frontendmentor-tic-tac-toe",
     "preview": "https://frontendmentor-tic-tac-toe-4yx3.vercel.app/",
     "imageViews": "/projects/tic-tac-toe-game/tic-tac-toe-game-view.png"
   },
@@ -37,7 +37,7 @@
     "dialogDescription": "Game flow managed by a strict state machine",
     "mainImage": "/projects/hangman-game/hangman-game-header.png",
     "slug": "hangman-game",
-    "github": "https://github.com/aga-siwek/frontend-mentor-hangman-game",
+    "githubFrontend": "https://github.com/aga-siwek/frontend-mentor-hangman-game",
     "preview": "https://frontend-mentor-hangman-game-theta.vercel.app/",
     "imageViews": "/projects/hangman-game/hangman-game-res.png"
   },
@@ -51,7 +51,7 @@
     "dialogDescription": "Weather dashboard with timezone-aware forecast data.",
     "mainImage": "/projects/weather-app/weather-app-header.png",
     "slug": "weather-app",
-    "github": "https://github.com/aga-siwek/frontend-mentor-weather-app",
+    "githubFrontend": "https://github.com/aga-siwek/frontend-mentor-weather-app",
     "preview": "https://frontend-mentor-weather-app-chi.vercel.app/",
     "imageViews": "/projects/weather-app/weather-app-res.png"
   },
@@ -65,7 +65,7 @@
     "dialogDescription": "Full-stack dashboard transforming daily emotional logs into wellness insights.",
     "mainImage": "/projects/moodTrack/mood_p_header.png",
     "slug": "mood-track",
-    "github": "https://github.com/aga-siwek/frontendmentor-mood-tracking-redux",
+    "githubFrontend": "https://github.com/aga-siwek/frontendmentor-mood-tracking-redux",
     "preview": "https://frontendmentor-mood-tracking.vercel.app",
     "imageViews": "/projects/moodTrack/mood_p_res.png"
   },
@@ -79,7 +79,7 @@
     "dialogDescription": "Flask REST API with secure token authentication and relational data persistence.",
     "mainImage": "/projects/mood-track-backend/mood-track-b-header.png",
     "slug": "mood-track-backend",
-    "github": "https://github.com/aga-siwek/frontendmentor-mood-tracking-backend",
+    "githubBackend": "https://github.com/aga-siwek/frontendmentor-mood-tracking-backend",
     "preview": "",
     "imageViews": ""
   },
@@ -100,7 +100,7 @@
       "text3": "",
       "image3": ""
     },
-    "github": "https://github.com/",
+    "githubBackend": "https://github.com/",
     "preview": "https://www.google.com/"
   }
 }

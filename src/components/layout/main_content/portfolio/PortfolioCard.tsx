@@ -32,7 +32,8 @@ export type Props = {
   content: Record<string, string>;
   slug: string;
 
-  github: string;
+  githubFrontend?: string;
+  githubBackend?: string;
   preview: string;
   imageViews: string;
 };
@@ -50,12 +51,45 @@ function PortfolioCard(props: Props) {
     dialogDescription,
     mainImage,
     content,
-    github,
+    githubFrontend,
+    githubBackend,
     preview,
     slug,
     imageViews,
   } = props;
   console.log("Preview", preview, Boolean(preview));
+  const showCodeButtons = () => {
+    if (githubFrontend && githubBackend) {
+      return (
+        <>
+          <a href={githubFrontend} target="blank">
+            <Button>
+              view code frontend{" "}
+              <SquareArrowOutUpRight className="text-primary-foreground" />{" "}
+            </Button>
+          </a>
+          <a href={githubBackend} target="blank">
+            <Button>
+              view code backend{" "}
+              <SquareArrowOutUpRight className="text-primary-foreground" />{" "}
+            </Button>
+          </a>
+        </>
+      );
+    }
+    const singleLink = githubFrontend || githubBackend;
+    if (singleLink) {
+      return (
+        <a href={singleLink} target="blank">
+          <Button>
+            view code{" "}
+            <SquareArrowOutUpRight className="text-primary-foreground" />{" "}
+          </Button>
+        </a>
+      );
+    }
+    return null;
+  };
   const showLiveSiteButton = () => {
     if (preview) {
       return (
@@ -128,13 +162,8 @@ function PortfolioCard(props: Props) {
                     className="rounded-lg max-w-5xl"
                   />
                 )}
-                <div className="flex gap-4">
-                  <a href={github} target="blank">
-                    <Button>
-                      view code{" "}
-                      <SquareArrowOutUpRight className="text-primary-foreground" />{" "}
-                    </Button>
-                  </a>
+                <div className="flex flex-wrap gap-4">
+                  {showCodeButtons()}
                   {showLiveSiteButton()}
                 </div>
                 {description ? (
