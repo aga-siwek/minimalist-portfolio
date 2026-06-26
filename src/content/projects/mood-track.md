@@ -2,7 +2,7 @@
 
 ### 📄 Overview & Tech Stack
 
-A full-stack tracking application that transforms daily emotional logs into actionable insights. The project focuses on **real-time data synchronization**, where every user interaction triggers a global update of analytics, charts, and personalized content via a custom API.
+A fullstack tracking application that transforms daily emotional logs into actionable insights. The project focuses on **real-time data synchronization**, where every user interaction triggers a global update of analytics, charts, and personalized content via a custom API.
 
 - **Language:** TypeScript
 - **Framework:** React
@@ -44,6 +44,6 @@ A full-stack tracking application that transforms daily emotional logs into acti
 - **Redux Toolkit:** Mastering the lifecycle of asynchronous requests (pending/fulfilled/rejected).
 - **Data Processing:** Learning how to transform raw API responses into meaningful statistics and chart data.
 - **Conditional Rendering:** Using backend-driven states to manage complex UI transitions.
-- **Full-Stack Integration:** Coordinating a React frontend with a Python Flask backend through secure token-based authentication.
+- **Fullstack Integration:** Coordinating a React frontend with a Python Flask backend through secure token-based authentication.
 
 ### 📱 Preview

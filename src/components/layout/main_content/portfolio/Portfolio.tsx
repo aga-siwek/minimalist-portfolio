@@ -12,8 +12,8 @@ function Portfolio() {
         <SectionText text="Check my portfolio" />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-2 w-full">
-        <PortfolioCard {...projectsData["MoodTrack"]} />
-        <PortfolioCard {...projectsData["MoodTrackBackend"]} />
+        <PortfolioCard {...projectsData["MoodTrackFullstack"]} />
+        <PortfolioCard {...projectsData["PersonalReadingListFullstack"]} />
         <PortfolioCard {...projectsData["MemoryGame"]} />
         <PortfolioCard {...projectsData["HangmanGame"]} />
         <PortfolioCard {...projectsData["TicTacToeGame"]} />

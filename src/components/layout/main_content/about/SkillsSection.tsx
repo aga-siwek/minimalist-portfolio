@@ -71,7 +71,7 @@ function SkillsSection() {
           <div className="flex flex-col gap-2 justify-start items-start">
             <div className="flex gap-2 justify-start items-start">
               <Clipboard />
-              <p>Full-Stack development foundations</p>
+              <p>Fullstack development foundations</p>
             </div>
             <div className="flex gap-2 justify-start items-start">
               <Clipboard />

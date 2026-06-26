@@ -58,20 +58,24 @@ function PortfolioCard(props: Props) {
     imageViews,
   } = props;
   console.log("Preview", preview, Boolean(preview));
+  const codeButtonVariant = preview ? "outline" : "default";
+  const codeIconClassName = preview
+    ? "text-accent-foreground"
+    : "text-primary-foreground";
   const showCodeButtons = () => {
     if (githubFrontend && githubBackend) {
       return (
         <>
           <a href={githubFrontend} target="blank">
-            <Button>
-              view code frontend{" "}
-              <SquareArrowOutUpRight className="text-primary-foreground" />{" "}
+            <Button variant={codeButtonVariant} className="w-full">
+              Frontend{" "}
+              <SquareArrowOutUpRight className={codeIconClassName} />{" "}
             </Button>
           </a>
           <a href={githubBackend} target="blank">
-            <Button>
-              view code backend{" "}
-              <SquareArrowOutUpRight className="text-primary-foreground" />{" "}
+            <Button variant={codeButtonVariant} className="w-full">
+              Backend{" "}
+              <SquareArrowOutUpRight className={codeIconClassName} />{" "}
             </Button>
           </a>
         </>
@@ -80,10 +84,10 @@ function PortfolioCard(props: Props) {
     const singleLink = githubFrontend || githubBackend;
     if (singleLink) {
       return (
-        <a href={singleLink} target="blank">
-          <Button>
-            view code{" "}
-            <SquareArrowOutUpRight className="text-primary-foreground" />{" "}
+        <a href={singleLink} target="blank" className="w-full">
+          <Button variant={codeButtonVariant} className="w-full">
+            View Code{" "}
+            <SquareArrowOutUpRight className={codeIconClassName} />{" "}
           </Button>
         </a>
       );
@@ -93,10 +97,10 @@ function PortfolioCard(props: Props) {
   const showLiveSiteButton = () => {
     if (preview) {
       return (
-        <a href={preview} target="blank">
-          <Button variant="outline" >
-            view live site{" "}
-            <SquareArrowOutUpRight className="text-accent-foreground" />{" "}
+        <a href={preview} target="blank" className="w-full">
+          <Button className="w-full">
+            View Live Site{" "}
+            <SquareArrowOutUpRight className="text-primary-foreground" />{" "}
           </Button>
         </a>
       );
@@ -162,9 +166,9 @@ function PortfolioCard(props: Props) {
                     className="rounded-lg max-w-5xl"
                   />
                 )}
-                <div className="flex flex-wrap gap-4">
-                  {showCodeButtons()}
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 w-full">
                   {showLiveSiteButton()}
+                  {showCodeButtons()}
                 </div>
                 {description ? (
                   <div className="custom-markdown ">
