@@ -6,10 +6,10 @@ function Intro() {
       <div className="flex flex-col gap-2 lg:gap-4 absolute max-w-2/4 lg:max-w-2/6 left-0 lg:left-38 top-4 lg:top-48">
         <h3 className=" text-sm md:text-2xl lg:text-8xl font-bold text-primary">
           {" "}
-          Creative Coder
+          Product-Minded Builder
         </h3>
         <p className="text-[8px] md:text-xs lg:text-lg text-primary">
-          Bridging the gap between 13 years of business insights and technical
+          Bridging the gap between 11 years of business insights and technical
           execution to build effective, user-friendly digital products.
         </p>
       </div>
